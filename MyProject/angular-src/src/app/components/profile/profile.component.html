@@ -1,0 +1,13 @@
+<div *ngIf="user">
+  <h2 class="page-header">{{user.name}}</h2>
+  <h2>Personal information</h2>
+  <br>
+  <ul class="list-group">
+    <li class="list-group-item">First name : {{user.fname}}</li>
+    <li class="list-group-item">Last name : {{user.lname}}</li>
+    <li class="list-group-item">Date of birth : {{user.birth}}</li>
+    <li class="list-group-item">Gender : {{user.gender}}</li>
+    <li class="list-group-item">Username : {{user.username}}</li>
+    <li class="list-group-item">Email : {{user.email}}</li>
+  </ul>
+</div>
